@@ -38,8 +38,25 @@ Solidity · Solana (Rust)· Cairo · Move(In Learning)
 
 ## 🏢 Private Audits
 
-> To be filled.
+- **Pashov Audit Group** — 20+ audits  
+  Languages: 15+ Solidity (EVM), 4 Solana, 1 Cairo  
+  Domains: Launchpad, RWA, Lending, Cross-chain, ...
 
+- **Plainshift** — multiple audits  
+  Languages: Solidity (EVM), Solana  
+  Domains: Launchpad, Staking
+
+- **Cyfrin**  — 1 audit   
+  Languages: Solana  
+  Domains: DEX, PERP
+
+- **Yaudit (as guest auditor)** — 1 audit  
+  Languages: Solidity (EVM)  
+  Domains: Lending
+
+- **Confidential / Undisclosed Clients** — multiple audits  
+  Languages: Solana  
+  Domains: Launchpad, DEX
 ---
 
 ## 🏆 Contest Performance
@@ -57,19 +74,27 @@ Solidity · Solana (Rust)· Cairo · Move(In Learning)
 | Cantina | Royco | 3rd | 7 High 6 Medium (Most findings, 1 SOLO) | [Leaderboard](https://cantina.xyz/code/fadb5a8f-e39c-4a6b-89f6-a03858bb8602/overview/leaderboard) |
 
 
-- [**Secure3**](https://app.secure3.io/zh/leaderboard?platform=s3) (small platform / partially unverifiable):  
+- [**Secure3**](https://app.secure3.io/zh/leaderboard?platform=s3):  
   - 6 × Top 1, 10+ Top 3
   - Total Findings: 4 High (1 SOLO), 20 Medium (11 SOLO)  
 ---
 
-## 🧠 Research & Write-ups
+## 🧠 Research & Write‑ups
 
-> To be filled.
+- **How `init` and `init_if_needed` work under the hood & associated token account griefing attack (Solana / Anchor)**  
+  Deep dive into how Anchor’s account initialization mechanisms behave at runtime and subtle griefing/DoS patterns resulting from pre‑created associated token accounts.  
+  ↳ https://taichiaudit.com/blog/solana-security-series-2
+
+- **Pre‑Funding DoS in Solana: Breaking `create_account` with Non‑Zero Lamports**  
+  Analysis of how Solana’s account creation semantics can be exploited in DoS patterns via pre‑funded accounts.  
+  ↳ https://taichiaudit.com/blog/solana-security-series-1
+
+- **Understanding Liquidity: Uniswap v2 vs v3**  
+  Comparative technical exploration of concentrated liquidity mechanics and implications for DeFi LPs on Uniswap.  
+  ↳ https://taichiaudit.com/blog/understanding-liquidity-uniswap-v2-v3
+
+- **YouTube: Solidity / Blockchain Security Talk**  
+  Video covering [Deep Dive into Inflation Attacks]  
+  ↳ https://www.youtube.com/watch?v=arRMN_tPu3c
 
 ---
-
-## 🌍 Strengths & Areas of Interest
-
-- EVM security & protocol design
-- Solana (Rust, Anchor)
-- Bridges, Oracles, L1/L2
