@@ -1,7 +1,9 @@
 # Jesjupyter
 
-Blockchain Security Researcher & Smart Contract Auditor  
+Blockchain Security Researcher & Smart Contract Auditor
+
 Specialties: 🟦 Solidity (EVM) · 🟩 Solana (Rust) · 🟪 Cairo · 🟧 Move (Learning)
+
 ---
 
 ## 🔥 Top Findings (Selected)
