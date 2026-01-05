@@ -1,9 +1,7 @@
 # Jesjupyter
 
 Blockchain Security Researcher & Smart Contract Auditor  
-
-Solidity · Solana (Rust)· Cairo · Move(In Learning) 
-
+Specialties: 🟦 Solidity (EVM) · 🟩 Solana (Rust) · 🟪 Cairo · 🟧 Move (Learning)
 ---
 
 ## 🔥 Top Findings (Selected)
@@ -39,44 +37,43 @@ Solidity · Solana (Rust)· Cairo · Move(In Learning)
 ## 🏢 Private Audits
 
 - **Pashov Audit Group** — 20+ audits  
-  Languages: 15+ Solidity (EVM), 4 Solana, 1 Cairo  
-  Domains: Launchpad, RWA, Lending, Cross-chain, ...
+  **Languages:** 15+ Solidity (EVM), 4 Solana, 1 Cairo  
+  **Domains:** Launchpad, RWA, Lending, Cross-chain
 
 - **Plainshift** — multiple audits  
-  Languages: Solidity (EVM), Solana  
-  Domains: Launchpad, Staking
+  **Languages:** Solidity (EVM), Solana  
+  **Domains:** Launchpad, Staking
 
-- **Cyfrin**  — 1 audit   
-  Languages: Solana  
-  Domains: DEX, PERP
+- **Cyfrin** — 1 audit  
+  **Languages:** Solana  
+  **Domains:** DEX, PERP
 
 - **Yaudit (as guest auditor)** — 1 audit  
-  Languages: Solidity (EVM)  
-  Domains: Lending
+  **Languages:** Solidity (EVM)  
+  **Domains:** Lending
 
 - **Confidential / Undisclosed Clients** — multiple audits  
-  Languages: Solana  
-  Domains: Launchpad, DEX
+  **Languages:** Solana  
+  **Domains:** Launchpad, DEX
 ---
 
 ## 🏆 Contest Performance
-
--  [**Mainstream Audit Contest Platforms**](https://audits.sherlock.xyz/watson/jesjupyer): 33 High, 61 Medium  
+- [**Mainstream Audit Contest Platforms**](https://audits.sherlock.xyz/watson/jesjupyer): 33 High, 61 Medium  
 
 | Platform | Protocol | Rank | Findings | Link |
 |----------|---------|------|---------|------|
-| Cantina | arcadexyz/arcade-protocol | 1st | 2 Medium (1 SOLO) | [Leaderboard](https://cantina.xyz/code/c2e31b04-fbb2-4355-80ef-141d58b6e0cc/overview/leaderboard) |
-| Cantina | Coinbase Spend-permission | 1st | — | [Leaderboard](https://cantina.xyz/code/6837e02a-0a87-4577-a047-4e1ea71cff01/overview/leaderboard) |
-| Codehawks | OneWorld | 1st | 1 High 1 Medium | [Leaderboard](https://codehawks.cyfrin.io/contests/cm2mxcaoo000112pvkwt2nb8u) |
-| Cantina | pegasus(usual) | 2nd | 1 Medium | [Leaderboard](https://cantina.xyz/code/31a752e3-8ece-49b3-a9ee-d7294c659340/overview/leaderboard) |
-| Code4rena | Badger | 2nd | 1 Medium | [Leaderboard](https://code4rena.com/audits/2024-06-ebtc-zap-router) |
-| Cantina | Coinbase EIP7702Proxy | 2nd | 1 Medium | [Leaderboard](https://cantina.xyz/code/b0a948cd-c861-4807-b36e-d680d82598bf/overview/leaderboard) |
-| Cantina | Royco | 3rd | 7 High 6 Medium (Most findings, 1 SOLO) | [Leaderboard](https://cantina.xyz/code/fadb5a8f-e39c-4a6b-89f6-a03858bb8602/overview/leaderboard) |
+| Cantina | arcadexyz/arcade-protocol |  🏆 **1st** | 2 Medium (1 SOLO) | [Leaderboard](https://cantina.xyz/code/c2e31b04-fbb2-4355-80ef-141d58b6e0cc/overview/leaderboard) |
+| Cantina | Coinbase Spend-permission | 🏆 **1st** | — | [Leaderboard](https://cantina.xyz/code/6837e02a-0a87-4577-a047-4e1ea71cff01/overview/leaderboard) |
+| Codehawks | OneWorld | 🏆 **1st** | 1 High, 1 Medium | [Leaderboard](https://codehawks.cyfrin.io/contests/cm2mxcaoo000112pvkwt2nb8u) |
+| Cantina | pegasus(usual) | 🥈 **2nd** | 1 Medium | [Leaderboard](https://cantina.xyz/code/31a752e3-8ece-49b3-a9ee-d7294c659340/overview/leaderboard) |
+| Code4rena | Badger | 🥈 **2nd** | 1 Medium | [Leaderboard](https://code4rena.com/audits/2024-06-ebtc-zap-router) |
+| Cantina | Coinbase EIP7702Proxy | 🥈 **2nd** | 1 Medium | [Leaderboard](https://cantina.xyz/code/b0a948cd-c861-4807-b36e-d680d82598bf/overview/leaderboard) |
+| Cantina | Royco | 🥉 **3rd** | 7 High, 6 Medium (Most findings, 1 SOLO) | [Leaderboard](https://cantina.xyz/code/fadb5a8f-e39c-4a6b-89f6-a03858bb8602/overview/leaderboard) |
 
-
-- [**Secure3**](https://app.secure3.io/zh/leaderboard?platform=s3):  
-  - 6 × Top 1, 10+ Top 3
+- [**Secure3**](https://app.secure3.io/zh/leaderboard?platform=s3)  
+  - 6 × 🏆 Top 1, 10+ Top 3  
   - Total Findings: 4 High (1 SOLO), 20 Medium (11 SOLO)  
+  
 ---
 
 ## 🧠 Research & Write‑ups
