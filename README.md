@@ -6,6 +6,14 @@ Specialties: 🟦 Solidity (EVM) · 🟩 Solana (Rust) · 🟪 Cairo · 🟧 Mov
 
 ---
 
+## 📫 Contact
+
+- 📧 Email: [jes163940@gmail.com](mailto:jes163940@gmail.com)  
+- 🐦 Twitter: [@jesjupyter](https://twitter.com/jesjupyter)  
+- 💬 Telegram: [@jesjupyter](https://t.me/jesjupyter)
+
+---
+
 ## 🔥 Top Findings (Selected)
 
 1. **[SOLO][Contest] Share Manipulation via Liquidity Inflation Attack in Position Tokenization**  
