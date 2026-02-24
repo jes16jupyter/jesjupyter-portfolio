@@ -3,7 +3,7 @@
 - Blockchain security researcher & smart contract auditor, specializing in:  
   🟦 Solidity (EVM) · 🟩 Solana (Rust) · 🟪 Cairo · 🟧 Move (Rust)
 - Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLabs](https://defihacklabs.io/)
-- Uncovered 300+ High/Medium Severity Findings
+- Uncovered 310+ High/Medium Severity Findings
 - Audit collaborations: Cyfrin, Plainshift, Pashov Audit Group, Burra Sec, FailSafe, YAudit
 - Audited notable protocols: Coinbase (EIP-7702), PUMP (Launchpad), Badger (Lending), Usual (DEX), HashKey (Staking), Fira (Lending), StarkWare
 
@@ -27,7 +27,6 @@
    ↳ [View Finding](https://cantina.xyz/code/fadb5a8f-e39c-4a6b-89f6-a03858bb8602/findings/459)  
    Description: A campaign's reward rate can be manipulated near the end by extending the reward interval, causing financial harm.
 
-
 3. **[Contest] Hash Collision Vulnerability in Token Bit Position Mapping**  
    ↳ [View Finding](https://cantina.xyz/code/8cf9c7a0-a7a6-446a-8577-1e2c254eb5a8/findings/41)  
    Description: Modulo-based token mapping can cause hash collisions, leading to incorrect token tracking and system malfunction.
@@ -40,7 +39,6 @@
    ↳ [View Finding](https://cantina.xyz/code/c2e31b04-fbb2-4355-80ef-141d58b6e0cc/findings/17)  
    Description: No minimum repayment time can cause lenders to incur losses if the borrower repays too quickly, potentially harming lender funds.
 
-
 6. **[Contest] Missing Signature Expiration Control in Implementation Setting**  
    ↳ [View Finding](https://cantina.xyz/code/b0a948cd-c861-4807-b36e-d680d82598bf/findings/96)  
    Description: Implementation signatures lack expiration, allowing old signatures to remain executable indefinitely.
@@ -48,14 +46,14 @@
 ---
 
 
-## Finding Summary
+## 🔢 Finding Summary
 
 | Platform | High/Critical | Medium | Summary |
 |----------|---------------|--------|---------|
 | Public Contest | 34 | 63 | 97 |
 | Secure3 | 4 | 20 | 24 |
-| Private Audits | 66 | 126 | 192 |
-| Total | 104 | 209 | 313 |
+| Private Audits | 64 | 127 | 191 |
+| Total | 102 | 208 | 310 |
 
 ## 🏆 Contest Performance
 - [**Mainstream Audit Contest Platforms**](https://audits.sherlock.xyz/watson/jesjupyer): 34 High, 63 Medium  
@@ -64,7 +62,7 @@
 |----------|---------|------|---------|------|------|------|
 | Cantina | arcadexyz/arcade-protocol |  🏆 **1st** / 19 Participants | Lending | 🟦 Solidity (EVM) | 2 Medium (1 SOLO) | [Leaderboard](https://cantina.xyz/code/c2e31b04-fbb2-4355-80ef-141d58b6e0cc/overview/leaderboard) |
 | Cantina | Coinbase Spend-permission | 🏆 **1st** / 353 Participants | Smart Wallet | 🟦 Solidity (EVM) | — | [Leaderboard](https://cantina.xyz/code/6837e02a-0a87-4577-a047-4e1ea71cff01/overview/leaderboard) |
-| Codehawks | OneWorld | 🏆 **1st** / 65 Participants | Marketpalce, DAO | 🟦 Solidity (EVM) | 1 High, 1 Medium | [Leaderboard](https://codehawks.cyfrin.io/contests/cm2mxcaoo000112pvkwt2nb8u) |
+| Codehawks | OneWorld | 🏆 **1st** / 65 Participants | MarketPlace, DAO | 🟦 Solidity (EVM) | 1 High, 1 Medium | [Leaderboard](https://codehawks.cyfrin.io/contests/cm2mxcaoo000112pvkwt2nb8u) |
 | Cantina | pegasus(usual) | 🥈 **2nd** / 346 Participants | Orderbook, Dex | 🟦 Solidity (EVM) |1 Medium | [Leaderboard](https://cantina.xyz/code/31a752e3-8ece-49b3-a9ee-d7294c659340/overview/leaderboard) |
 | Code4rena | Badger | 🥈 **2nd** / 16 Participants | Lending | 🟦 Solidity (EVM) |1 Medium | [Leaderboard](https://code4rena.com/audits/2024-06-ebtc-zap-router) |
 | Cantina | Coinbase EIP7702Proxy | 🥈 **2nd** / 309 Participants | Smart Wallet | 🟦 Solidity (EVM) | 1 Medium | [Leaderboard](https://cantina.xyz/code/b0a948cd-c861-4807-b36e-d680d82598bf/overview/leaderboard) |
@@ -72,7 +70,7 @@
 | Codehawks | Temple DAO | 6 / 100 Participants | Staking | 🟦 Solidity (EVM) |1 High, 1 Low | [Leaderboard](https://codehawks.cyfrin.io/c/2024-07-templegold/results?page=1) |
 | Cantina | Morpho Vault | 8 / 561 Participants | Lending | 🟦 Solidity (EVM) |1 Medium | [Leaderboard](https://cantina.xyz/code/523e1540-f8c3-45ae-9c5d-b6d35d3a326c/overview/leaderboard) |
 | Code4rena | TraitForge | 10 / 247 Participants | NFT, GameFi | 🟦 Solidity (EVM) |2 High, 5 Medium | [Leaderboard](https://code4rena.com/audits/2024-07-traitforge) |
-| Code4rena | Velvet | 11 / 624 Participants | DeFi, AMM | 🟦 Solidity (EVM) | 1 High, 3 Medium | [Leaderboard](https://cantina.xyz/code/8cf9c7a0-a7a6-446a-8577-1e2c254eb5a8/overview/leaderboard) |
+| Cantina | Velvet | 11 / 624 Participants | DeFi, AMM | 🟦 Solidity (EVM) | 1 High, 3 Medium | [Leaderboard](https://cantina.xyz/code/8cf9c7a0-a7a6-446a-8577-1e2c254eb5a8/overview/leaderboard) |
 | Cantina | Defi App | 11 / 361 Participants | yield farming | 🟦 Solidity (EVM) | 1 High, 1 Medium | [Leaderboard](https://cantina.xyz/code/1b64737c-1373-4ecf-a179-4cd0d7b0b232/overview/leaderboard) |
 | Cantina | Yolo Games  | 14 / 250 Participants | GameFi | 🟦 Solidity (EVM) | 1 Medium | [Leaderboard](https://cantina.xyz/code/a2c3cc6a-e384-495f-9751-5d7e657bc219/overview/leaderboard) |
 | Code4rena | ThorWallet  | 14 / 132 Participants | Smart Wallet | 🟦 Solidity (EVM) | 1 High, 1 Medium | [Leaderboard](https://code4rena.com/audits/2025-02-thorwallet) |
@@ -173,6 +171,9 @@
 | [Tenbin](https://tenbin.io/) | Fuzzland | Yield, ERC4626 | 🟦 Solidity (EVM) | 4 | 2 | 2 | - |
 
 ### Undisclosed Clients
+
+Note: 5 additional Solana audits under NDA
+
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
 |----------|---------|---------|---------|------|---------|------|---------|
 | Private | Undisclosed Clients | CLMM | 🟩 Solana (Rust) | private | private |private | - |
