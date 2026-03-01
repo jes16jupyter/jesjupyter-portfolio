@@ -52,8 +52,8 @@
 |----------|---------------|--------|---------|
 | Public Contest | 34 | 63 | 97 |
 | Secure3 | 4 | 20 | 24 |
-| Private Audits | 64 | 127 | 191 |
-| Total | 102 | 208 | 310 |
+| Private Audits | 64 | 128 | 192 |
+| Total | 102 | 209 | 311 |
 
 ## 🏆 Contest Performance
 - [**Mainstream Audit Contest Platforms**](https://audits.sherlock.xyz/watson/jesjupyer): 34 High, 63 Medium  
@@ -67,13 +67,13 @@
 | Code4rena | Badger | 🥈 **2nd** / 16 Participants | Lending | 🟦 Solidity (EVM) |1 Medium | [Leaderboard](https://code4rena.com/audits/2024-06-ebtc-zap-router) |
 | Cantina | Coinbase EIP7702Proxy | 🥈 **2nd** / 309 Participants | Smart Wallet | 🟦 Solidity (EVM) | 1 Medium | [Leaderboard](https://cantina.xyz/code/b0a948cd-c861-4807-b36e-d680d82598bf/overview/leaderboard) |
 | Cantina | Royco | 🥉 **3rd** / 281 Participants | Orderbook, Dex | 🟦 Solidity (EVM) | 7 High, 6 Medium (Most findings, 1 SOLO) | [Leaderboard](https://cantina.xyz/code/fadb5a8f-e39c-4a6b-89f6-a03858bb8602/overview/leaderboard) |
+| Code4rena | ThorWallet  | 6 / 132 Participants | Smart Wallet | 🟦 Solidity (EVM) | 1 High, 1 Medium | [Leaderboard](https://code4rena.com/audits/2025-02-thorwallet) |
 | Codehawks | Temple DAO | 6 / 100 Participants | Staking | 🟦 Solidity (EVM) |1 High, 1 Low | [Leaderboard](https://codehawks.cyfrin.io/c/2024-07-templegold/results?page=1) |
 | Cantina | Morpho Vault | 8 / 561 Participants | Lending | 🟦 Solidity (EVM) |1 Medium | [Leaderboard](https://cantina.xyz/code/523e1540-f8c3-45ae-9c5d-b6d35d3a326c/overview/leaderboard) |
 | Code4rena | TraitForge | 10 / 247 Participants | NFT, GameFi | 🟦 Solidity (EVM) |2 High, 5 Medium | [Leaderboard](https://code4rena.com/audits/2024-07-traitforge) |
 | Cantina | Velvet | 11 / 624 Participants | DeFi, AMM | 🟦 Solidity (EVM) | 1 High, 3 Medium | [Leaderboard](https://cantina.xyz/code/8cf9c7a0-a7a6-446a-8577-1e2c254eb5a8/overview/leaderboard) |
 | Cantina | Defi App | 11 / 361 Participants | yield farming | 🟦 Solidity (EVM) | 1 High, 1 Medium | [Leaderboard](https://cantina.xyz/code/1b64737c-1373-4ecf-a179-4cd0d7b0b232/overview/leaderboard) |
 | Cantina | Yolo Games  | 14 / 250 Participants | GameFi | 🟦 Solidity (EVM) | 1 Medium | [Leaderboard](https://cantina.xyz/code/a2c3cc6a-e384-495f-9751-5d7e657bc219/overview/leaderboard) |
-| Code4rena | ThorWallet  | 14 / 132 Participants | Smart Wallet | 🟦 Solidity (EVM) | 1 High, 1 Medium | [Leaderboard](https://code4rena.com/audits/2025-02-thorwallet) |
 | Code4rena | Unistaker  | 15 / 54 Participants | Staking | 🟦 Solidity (EVM) | - | [Leaderboard](https://code4rena.com/reports/2024-02-uniswap-foundation) |
 | Cantina | Goat Tech  | 15 / 244 Participants | GameFi, Staking | 🟦 Solidity (EVM) |1 High, 3 Medium | [Leaderboard](https://cantina.xyz/code/f214cf86-cc80-40c0-a70b-e9bb25d7ac80/overview/leaderboard) |
 | Cantina | Bima  | 16 / 338 Participants | Lending | 🟦 Solidity (EVM) | 1 Medium | [Leaderboard](https://cantina.xyz/code/44d68da7-3cf4-4cec-a3f8-f0917062dac6/overview/leaderboard) |
@@ -108,6 +108,8 @@
 | [Deriverse](https://deriverse.io/) | Cyfrin | DEX, Perpetual | 🟩 Solana (Rust) | 9 | 14 | 8 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf) |
 | [Story IP Derivative Agent](https://www.story.foundation/) | Cyfrin | Agent | 🟦 Solidity (EVM) | 0 | 0 | 1 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-01-15-cyfrin-story-ip-derivative-agent-v2.1.pdf) |
 | Private | Cyfrin | RWA | 🟩 Solana (Rust) | 1 | 1 | 5 | - |
+| Private | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 1 | 2 | - |
+
 
 ### Plainshift
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
