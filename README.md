@@ -3,7 +3,7 @@
 - Blockchain security researcher & smart contract auditor, specializing in:  
   🟦 Solidity (EVM) · 🟩 Solana (Rust) · 🟪 Cairo · 🟧 Move (Rust)
 - Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLabs](https://defihacklabs.io/)
-- Uncovered 310+ High/Medium Severity Findings
+- Uncovered 330+ High/Medium Severity Findings
 - Audit collaborations: Cyfrin, Plainshift, Pashov Audit Group, Burra Sec, FailSafe, YAudit
 - Audited notable protocols: Coinbase (EIP-7702), PUMP (Launchpad), Badger (Lending), Usual (DEX), HashKey (Staking), Fira (Lending), StarkWare
 
@@ -52,8 +52,8 @@
 |----------|---------------|--------|---------|
 | Public Contest | 34 | 63 | 97 |
 | Secure3 | 4 | 20 | 24 |
-| Private Audits | 64 | 128 | 192 |
-| Total | 102 | 209 | 311 |
+| Private Audits | 70 | 141 | 211 |
+| Total | 108 | 224 | 332 |
 
 ## 🏆 Contest Performance
 - [**Mainstream Audit Contest Platforms**](https://audits.sherlock.xyz/watson/jesjupyer): 34 High, 63 Medium  
@@ -99,6 +99,7 @@
 |----------|---------|---------|---------|------|---------|------|---------|
 | [LazyOtter](https://lazyotter.finance/) | Taichi Audit | yield farming | 🟦 Solidity (EVM) | 1 | 3 | - | - |
 | [Lambo Win](https://lambo-win.gitbook.io/lambo.win) | Taichi Audit | Launchpad | 🟦 Solidity (EVM) | 0 | 3 | - | - |
+| Private | Taichi Audit | Lending | � Solidity (EVM) | 3 | 7 | 8 | - |
 
 ### Cyfrin
 
@@ -107,9 +108,10 @@
 | Temple DAO Mitigation | CodeHawks | Staking | 🟦 Solidity (EVM) | 1 | 2 | 1 | Private Report |
 | [Deriverse](https://deriverse.io/) | Cyfrin | DEX, Perpetual | 🟩 Solana (Rust) | 9 | 14 | 8 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf) |
 | [Story IP Derivative Agent](https://www.story.foundation/) | Cyfrin | Agent | 🟦 Solidity (EVM) | 0 | 0 | 1 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-01-15-cyfrin-story-ip-derivative-agent-v2.1.pdf) |
-| Private | Cyfrin | RWA | 🟩 Solana (Rust) | 1 | 1 | 5 | - |
+| [Securitize SVM On/Off Ramp](https://www.securitize.io/) | Cyfrin | RWA | 🟩 Solana (Rust) | 1 | 1 | 5 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-02-19-cyfrin-securitize-svm-on-off-ramp-v2.0.pdf) |
 | Private | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 1 | 2 | - |
-
+| Private | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 0 | 0 | - |
+| Private | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 0 | 1 | - |
 
 ### Plainshift
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
@@ -145,6 +147,7 @@
 | [Starkware](https://www.starkware.co/) | Pashov Audit Group | Smart Wallet | 🟪 Cairo | 0 | 0 | 3 | Private Report|
 | SQD | Pashov Audit Group | staking | 🟦 Solidity (EVM) | 1 | 2 | 5 | Private Report|
 | Private | Pashov Audit Group | Airdrop | 🟦 Solidity (EVM) | 0 | 0 | 5 | Private Report|
+| Private | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 0 | 2 | 9 | Private Report|
 
 ### Yaudit(as guest auditor)
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
@@ -163,6 +166,9 @@
 | [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 1 |1 | - |
 | [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 0 |1 | - |
 | [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | - | - |- | - |
+| [AZverse](https://www.azverse.xyz/en) | Failsafe | DEX | 🟦 Solidity (EVM) | 1 | 2 |1 | - |
+| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 1 | 2 | Private Report|
+
 
 ### Fuzzland
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
@@ -171,6 +177,7 @@
 | [vishwanetwork-sbtcvc](https://vishwanetwork.xyz/) | Fuzzland | cross-chain | 🟧 Move (Rust) | 1 | 0 | 1 | - |
 | [vishwanetwork-sbtcvc](https://vishwanetwork.xyz/) | Fuzzland | cross-chain | 🟧 Move (Rust) | 1 | 1 | 0 | - |
 | [Tenbin](https://tenbin.io/) | Fuzzland | Yield, ERC4626 | 🟦 Solidity (EVM) | 4 | 2 | 2 | - |
+| ThetaFunction RFQ | Fuzzland | RFQ | 🟦 Solidity (EVM) | 2 | 1 | 2 | - |
 
 ### Undisclosed Clients
 
