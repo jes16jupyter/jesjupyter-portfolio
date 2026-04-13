@@ -3,8 +3,8 @@
 - Blockchain security researcher & smart contract auditor, specializing in:  
   🟦 Solidity (EVM) · 🟩 Solana (Rust) · 🟪 Cairo · 🟧 Move (Rust)
 - Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLabs](https://defihacklabs.io/)
-- Uncovered 330+ High/Medium Severity Findings
-- Audit collaborations: Cyfrin, Plainshift, Pashov Audit Group, Burra Sec, FailSafe, YAudit
+- Uncovered 360+ High/Medium Severity Findings
+- Audit collaborations: Cyfrin, Plainshift, Pashov Audit Group, Burra Sec, Failsafe, YAudit
 - Audited notable protocols: Coinbase (EIP-7702), PUMP (Launchpad), Badger (Lending), Usual (DEX), HashKey (Staking), Fira (Lending), StarkWare
 
 ---
@@ -52,8 +52,8 @@
 |----------|---------------|--------|---------|
 | Public Contest | 34 | 63 | 97 |
 | Secure3 | 4 | 20 | 24 |
-| Private Audits | 70 | 141 | 211 |
-| Total | 108 | 224 | 332 |
+| Private Audits | 81 | 160 | 241 |
+| Total | 119 | 243 | 362 |
 
 ## 🏆 Contest Performance
 - [**Mainstream Audit Contest Platforms**](https://audits.sherlock.xyz/watson/jesjupyer): 34 High, 63 Medium  
@@ -99,7 +99,7 @@
 |----------|---------|---------|---------|------|---------|------|---------|
 | [LazyOtter](https://lazyotter.finance/) | Taichi Audit | yield farming | 🟦 Solidity (EVM) | 1 | 3 | - | - |
 | [Lambo Win](https://lambo-win.gitbook.io/lambo.win) | Taichi Audit | Launchpad | 🟦 Solidity (EVM) | 0 | 3 | - | - |
-| Private | Taichi Audit | Lending | � Solidity (EVM) | 3 | 7 | 8 | - |
+| Private | Taichi Audit | Lending | 🟦 Solidity (EVM) | 3 | 7 | 8 | - |
 
 ### Cyfrin
 
@@ -110,8 +110,9 @@
 | [Story IP Derivative Agent](https://www.story.foundation/) | Cyfrin | Agent | 🟦 Solidity (EVM) | 0 | 0 | 1 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-01-15-cyfrin-story-ip-derivative-agent-v2.1.pdf) |
 | [Securitize SVM On/Off Ramp](https://www.securitize.io/) | Cyfrin | RWA | 🟩 Solana (Rust) | 1 | 1 | 5 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-02-19-cyfrin-securitize-svm-on-off-ramp-v2.0.pdf) |
 | Private | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 1 | 2 | - |
-| Private | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 0 | 0 | - |
-| Private | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 0 | 1 | - |
+| [Securitize Whitelist](https://www.securitize.io/) | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 0 | 0 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) |
+| [Securitize ACL](https://www.securitize.io/) | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 0 | 1 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) |
+| Private | Cyfrin  | Bridge | 🟩 Solana (Rust) | 2 | 1 | 6 | - |
 
 ### Plainshift
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
@@ -148,6 +149,7 @@
 | SQD | Pashov Audit Group | staking | 🟦 Solidity (EVM) | 1 | 2 | 5 | Private Report|
 | Private | Pashov Audit Group | Airdrop | 🟦 Solidity (EVM) | 0 | 0 | 5 | Private Report|
 | Private | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 0 | 2 | 9 | Private Report|
+| Private | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 3 | 3 | 13 | Private Report|
 
 ### Yaudit(as guest auditor)
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
@@ -168,7 +170,8 @@
 | [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | - | - |- | - |
 | [AZverse](https://www.azverse.xyz/en) | Failsafe | DEX | 🟦 Solidity (EVM) | 1 | 2 |1 | - |
 | [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 1 | 2 | Private Report|
-
+| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 3 | 4 | Private Report|
+| [Virtuals-ACP](https://www.virtuals.io/) | Failsafe | Settlement | 🟦 Solidity (EVM) | 6 | 9 | 15 | Private Report|
 
 ### Fuzzland
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
@@ -178,6 +181,7 @@
 | [vishwanetwork-sbtcvc](https://vishwanetwork.xyz/) | Fuzzland | cross-chain | 🟧 Move (Rust) | 1 | 1 | 0 | - |
 | [Tenbin](https://tenbin.io/) | Fuzzland | Yield, ERC4626 | 🟦 Solidity (EVM) | 4 | 2 | 2 | - |
 | ThetaFunction RFQ | Fuzzland | RFQ | 🟦 Solidity (EVM) | 2 | 1 | 2 | - |
+| ThetaFunction RFQ V2 | Fuzzland | RFQ | 🟦 Solidity (EVM) | 0 | 3 | 2 | - |
 
 ### Undisclosed Clients
 
@@ -223,5 +227,14 @@ Note: 5 additional Solana audits under NDA
 
   Video covering [Deep Dive into Inflation Attacks]  
   ↳ https://www.youtube.com/watch?v=arRMN_tPu3c
+
+
+## 🛠️ Contributions
+
+- **EIP-7702 Fix for Foundry during Pectra Upgrade**
+
+  Created issue and PR to address EIP-7702 related bug in the Foundry project during the Pectra upgrade.
+  - Issue: [foundry-rs/foundry#10181](https://github.com/foundry-rs/foundry/issues/10181)
+  - PR: [foundry-rs/foundry#10182](https://github.com/foundry-rs/foundry/pull/10182)
 
 ---
