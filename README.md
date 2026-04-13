@@ -1,10 +1,13 @@
 # JesJupyter
 
-- Blockchain security researcher & smart contract auditor, specializing in:  
+Senior Blockchain Security Researcher & Smart Contract Auditor
+
+Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLabs](https://defihacklabs.io/)
+
+- specializing in:  
   🟦 Solidity (EVM) · 🟩 Solana (Rust) · 🟪 Cairo · 🟧 Move (Rust)
-- Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLabs](https://defihacklabs.io/)
-- Uncovered 360+ High/Medium Severity Findings
-- Audit collaborations: Cyfrin, Plainshift, Pashov Audit Group, Burra Sec, Failsafe, YAudit
+- **Uncovered 360+ High/Medium vulnerabilities** across competitive audits and real-world engagements
+- Audit Collaborations: Cyfrin, Plainshift, Pashov Audit Group, Burra Sec, Failsafe, YAudit
 - Audited notable protocols: Coinbase (EIP-7702), PUMP (Launchpad), Badger (Lending), Usual (DEX), HashKey (Staking), Fira (Lending), StarkWare
 
 ---
