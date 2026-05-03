@@ -5,8 +5,8 @@ Senior Blockchain Security Researcher & Smart Contract Auditor
 Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLabs](https://defihacklabs.io/)
 
 - specializing in:  
-  🟦 Solidity (EVM) · 🟩 Solana (Rust) · 🟪 Cairo · 🟧 Move (Rust)
-- **Uncovered 360+ High/Medium vulnerabilities** across competitive audits and real-world engagements
+  🟦 Solidity (EVM) · 🟩 Solana (Rust) · 🟪 Cairo · 🟧 Move (Rust) · 🟨 DAML (Canto)
+- **Uncovered 370+ High/Medium vulnerabilities** across competitive audits and real-world engagements
 - Audit Collaborations: Cyfrin, Plainshift, Pashov Audit Group, Burra Sec, Failsafe, YAudit
 - Audited notable protocols: Coinbase (EIP-7702), PUMP (Launchpad), Badger (Lending), Usual (DEX), HashKey (Staking), Fira (Lending), StarkWare
 
@@ -55,8 +55,8 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 |----------|---------------|--------|---------|
 | Public Contest | 34 | 63 | 97 |
 | Secure3 | 4 | 20 | 24 |
-| Private Audits | 81 | 160 | 241 |
-| Total | 119 | 243 | 362 |
+| Private Audits | 84 | 168 | 252 |
+| Total | 122 | 251 | 373 |
 
 ## 🏆 Contest Performance
 - [**Mainstream Audit Contest Platforms**](https://audits.sherlock.xyz/watson/jesjupyer): 34 High, 63 Medium  
@@ -102,7 +102,7 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 |----------|---------|---------|---------|------|---------|------|---------|
 | [LazyOtter](https://lazyotter.finance/) | Taichi Audit | yield farming | 🟦 Solidity (EVM) | 1 | 3 | - | - |
 | [Lambo Win](https://lambo-win.gitbook.io/lambo.win) | Taichi Audit | Launchpad | 🟦 Solidity (EVM) | 0 | 3 | - | - |
-| Private | Taichi Audit | Lending | 🟦 Solidity (EVM) | 3 | 7 | 8 | - |
+| [Isle V2](https://www.isle.finance/) | Taichi Audit | Lending | 🟦 Solidity (EVM) | 3 | 7 | 8 | - |
 
 ### Cyfrin
 
@@ -150,9 +150,11 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 | Zoop | Pashov Audit Group | Cross-chain | 🟦 Solidity (EVM) | 1 | 3 | 8 | Private Report|
 | [Starkware](https://www.starkware.co/) | Pashov Audit Group | Smart Wallet | 🟪 Cairo | 0 | 0 | 3 | Private Report|
 | SQD | Pashov Audit Group | staking | 🟦 Solidity (EVM) | 1 | 2 | 5 | Private Report|
-| Private | Pashov Audit Group | Airdrop | 🟦 Solidity (EVM) | 0 | 0 | 5 | Private Report|
-| Private | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 0 | 2 | 9 | Private Report|
-| Private | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 3 | 3 | 13 | Private Report|
+| [TokenLock(Opinion)](https://www.opinion.trade/) | Pashov Audit Group | Airdrop | 🟦 Solidity (EVM) | 0 | 0 | 5 | Private Report|
+| [0xOstium](https://www.ostium.com/) | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 0 | 2 | 9 | Private Report|
+| [veRAAC](https://raac.io/) | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 3 | 3 | 13 | Private Report|
+| [0xOstium](https://www.ostium.com/) | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 0 | 1 | 2 | Private Report|
+
 
 ### Yaudit(as guest auditor)
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
@@ -185,6 +187,10 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 | [Tenbin](https://tenbin.io/) | Fuzzland | Yield, ERC4626 | 🟦 Solidity (EVM) | 4 | 2 | 2 | - |
 | ThetaFunction RFQ | Fuzzland | RFQ | 🟦 Solidity (EVM) | 2 | 1 | 2 | - |
 | ThetaFunction RFQ V2 | Fuzzland | RFQ | 🟦 Solidity (EVM) | 0 | 3 | 2 | - |
+| [dolomite](https://dolomite.io/) | Fuzzland | DYDX Fork | 🟦 Solidity (EVM) | 2 | 6 | 3 | - |
+| [USD1](https://worldlibertyfinancial.com/usd1) | Fuzzland | Canton Token | 🟨 DAML | 1 | 1 | 2 | - |
+| [USD1 PreApproval](https://worldlibertyfinancial.com/usd1) | Fuzzland | Canton Token | 🟨 DAML | 0 | 0 | 1 | - |
+
 
 ### Undisclosed Clients
 
