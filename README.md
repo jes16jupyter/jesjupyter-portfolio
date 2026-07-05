@@ -6,7 +6,7 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 
 - specializing in:  
   🟦 Solidity (EVM) · 🟩 Solana (Rust) · 🟪 Cairo · 🟧 Move (Rust) · 🟨 DAML (Canto)
-- **Uncovered 370+ High/Medium vulnerabilities** across competitive audits and real-world engagements
+- **Uncovered 390+ High/Medium vulnerabilities** across competitive audits and real-world engagements
 - Audit Collaborations: Cyfrin, Plainshift, Pashov Audit Group, Burra Sec, Failsafe, YAudit
 - Audited notable protocols: Coinbase (EIP-7702), PUMP (Launchpad), Badger (Lending), Usual (DEX), HashKey (Staking), Fira (Lending), StarkWare
 
@@ -53,10 +53,10 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 
 | Platform | High/Critical | Medium | Summary |
 |----------|---------------|--------|---------|
-| Public Contest | 34 | 63 | 97 |
+| Public Contest | 34 | 68 | 102 |
 | Secure3 | 4 | 20 | 24 |
-| Private Audits | 84 | 168 | 252 |
-| Total | 122 | 251 | 373 |
+| Private Audits | 85 | 179 | 284 |
+| Total | 123 | 267 | 390 |
 
 ## 🏆 Contest Performance
 - [**Mainstream Audit Contest Platforms**](https://audits.sherlock.xyz/watson/jesjupyer): 34 High, 63 Medium  
@@ -72,6 +72,7 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 | Cantina | Royco | 🥉 **3rd** / 281 Participants | Orderbook, Dex | 🟦 Solidity (EVM) | 7 High, 6 Medium (Most findings, 1 SOLO) | [Leaderboard](https://cantina.xyz/code/fadb5a8f-e39c-4a6b-89f6-a03858bb8602/overview/leaderboard) |
 | Code4rena | ThorWallet  | 6 / 132 Participants | Smart Wallet | 🟦 Solidity (EVM) | 1 High, 1 Medium | [Leaderboard](https://code4rena.com/audits/2025-02-thorwallet) |
 | Codehawks | Temple DAO | 6 / 100 Participants | Staking | 🟦 Solidity (EVM) |1 High, 1 Low | [Leaderboard](https://codehawks.cyfrin.io/c/2024-07-templegold/results?page=1) |
+| Codespect | SpecSiege | 6 / 25 Participants | Bonding | 🟦 Solidity (EVM) | 3 Medium, 2 Low | - |
 | Cantina | Morpho Vault | 8 / 561 Participants | Lending | 🟦 Solidity (EVM) |1 Medium | [Leaderboard](https://cantina.xyz/code/523e1540-f8c3-45ae-9c5d-b6d35d3a326c/overview/leaderboard) |
 | Code4rena | TraitForge | 10 / 247 Participants | NFT, GameFi | 🟦 Solidity (EVM) |2 High, 5 Medium | [Leaderboard](https://code4rena.com/audits/2024-07-traitforge) |
 | Cantina | Velvet | 11 / 624 Participants | DeFi, AMM | 🟦 Solidity (EVM) | 1 High, 3 Medium | [Leaderboard](https://cantina.xyz/code/8cf9c7a0-a7a6-446a-8577-1e2c254eb5a8/overview/leaderboard) |
@@ -86,6 +87,7 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 | Code4rena | Chakra  | 20 / 109 Participants | Settlement | 🟦 Solidity (EVM) | 2 High, 2 Medium | [Leaderboard](https://code4rena.com/audits/2024-08-chakra) |
 | Code4rena | Vultisig  | 21 / 70 Participants | UniswapV3 Integration | 🟦 Solidity (EVM) | 2 Medium | [Leaderboard](https://code4rena.com/reports/2024-06-vultisig) |
 | Code4rena | Althea Liquid Infrastructure  | 28 / 93 Participants | ERC20 | 🟦 Solidity (EVM) | 2 Medium | [Leaderboard](https://code4rena.com/audits/2024-02-althea-liquid-infrastructure) |
+| Code4rena | Revert Finance  | 28 / 773 Participants | Lending | 🟦 Solidity (EVM) | 2 Medium | [Leaderboard](https://cantina.xyz/code/e55ee7b9-6c99-42f8-8338-39f3dd134ef3/overview/leaderboard) |
 
 
 - [**Secure3**](https://app.secure3.io/zh/leaderboard?platform=s3)  
@@ -115,7 +117,10 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 | Private | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 1 | 2 | - |
 | [Securitize Whitelist](https://www.securitize.io/) | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 0 | 0 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) |
 | [Securitize ACL](https://www.securitize.io/) | Cyfrin | RWA | 🟩 Solana (Rust) | 0 | 0 | 1 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) |
-| Private | Cyfrin  | Bridge | 🟩 Solana (Rust) | 2 | 1 | 6 | - |
+| [Securitize Bridge](https://www.securitize.io/) | Cyfrin  | Bridge | 🟩 Solana (Rust) | 2 | 1 | 6 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-04-30-cyfrin-securitize-solana-bridge-v2.1.pdf) |
+| Privat | Cyfrin  | RWA | 🟩 Solana (Rust) | 0 | 0 | 4 | - |
+| [Securitize Jump Router](https://www.securitize.io/) | Cyfrin  | Router | 🟩 Solana (Rust) | 0 | 0 | 1 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-06-09-cyfrin-securitize-svm-jump-router-v2.0.pdf) |
+| [Securitize ACL](https://www.securitize.io/) | Cyfrin  | Router | 🟩 Solana (Rust) | 0 | 0 | 1 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-06-26-cyfrin-securitize-svm-bridge-acl-support-v2.0.pdf) |
 
 ### Plainshift
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
@@ -151,10 +156,12 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 | [Starkware](https://www.starkware.co/) | Pashov Audit Group | Smart Wallet | 🟪 Cairo | 0 | 0 | 3 | Private Report|
 | SQD | Pashov Audit Group | staking | 🟦 Solidity (EVM) | 1 | 2 | 5 | Private Report|
 | [TokenLock(Opinion)](https://www.opinion.trade/) | Pashov Audit Group | Airdrop | 🟦 Solidity (EVM) | 0 | 0 | 5 | Private Report|
-| [0xOstium](https://www.ostium.com/) | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 0 | 2 | 9 | Private Report|
-| [veRAAC](https://raac.io/) | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 3 | 3 | 13 | Private Report|
-| [0xOstium](https://www.ostium.com/) | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 0 | 1 | 2 | Private Report|
-
+| [0xOstium](https://www.ostium.com/) | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 0 | 0 | 5 | Private Report|
+| [veRAAC](https://raac.io/) | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 3 | 2 | 1 | Private Report|
+| [0xOstium](https://www.ostium.com/) | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 0 | 0 | 3 | Private Report|
+| [veRAAC](https://raac.io/) | Pashov Audit Group | Locker | 🟦 Solidity (EVM) | 4 | 3 | 6 | Private Report|
+| [0xOstium](https://www.ostium.com/) | Pashov Audit Group | RWA | 🟦 Solidity (EVM) | 0 | 0 | 3 | Private Report|
+| [Pump.fun](https://pump.fun/) | Pashov Audit Group | Launchpad | 🟩 Solana (Rust) | 1 | 2 | 13 | Private Report|
 
 ### Yaudit(as guest auditor)
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
@@ -166,6 +173,7 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 |----------|---------|---------|---------|------|---------|------|---------|
 | [Zama](https://www.zama.org/) | Burra Sec | LayerZero | 🟦 Solidity (EVM) + 🟩 Solana (Rust) | 0 | 0 | 1 | - |
 | [Zama](https://www.zama.org/) | Burra Sec | LayerZero | 🟦 Solidity (EVM) + 🟩 Solana (Rust) | 0 | 0 | 0 | - |
+| [Zama](https://www.zama.org/) | Burra Sec | LayerZero | JavaScript | 0 | 3 | 1 | - |
 
 ### Failsafe
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
@@ -190,7 +198,8 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 | [dolomite](https://dolomite.io/) | Fuzzland | DYDX Fork | 🟦 Solidity (EVM) | 2 | 6 | 3 | - |
 | [USD1](https://worldlibertyfinancial.com/usd1) | Fuzzland | Canton Token | 🟨 DAML | 1 | 1 | 2 | - |
 | [USD1 PreApproval](https://worldlibertyfinancial.com/usd1) | Fuzzland | Canton Token | 🟨 DAML | 0 | 0 | 1 | - |
-
+| ROBO Finance | Fuzzland |  | 🟦 Solidity (EVM) | 0 | 4 | 2 | - |
+| [vishwanetwork](https://vishwanetwork.xyz/) | Fuzzland | cross-chain | TypeScript | 0 | 3 | 3 | - |
 
 ### Undisclosed Clients
 
