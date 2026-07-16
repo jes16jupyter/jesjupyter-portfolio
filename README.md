@@ -6,7 +6,7 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 
 - specializing in:  
   🟦 Solidity (EVM) · 🟩 Solana (Rust) · 🟪 Cairo · 🟧 Move (Rust) · 🟨 DAML (Canto)
-- **Uncovered 390+ High/Medium vulnerabilities** across competitive audits and real-world engagements
+- **Uncovered 400+ High/Medium vulnerabilities** across competitive audits and real-world engagements
 - Audit Collaborations: Cyfrin, Plainshift, Pashov Audit Group, Burra Sec, Failsafe, YAudit
 - Audited notable protocols: Coinbase (EIP-7702), PUMP (Launchpad), Badger (Lending), Usual (DEX), HashKey (Staking), Fira (Lending), StarkWare
 
@@ -55,8 +55,8 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 |----------|---------------|--------|---------|
 | Public Contest | 34 | 68 | 102 |
 | Secure3 | 4 | 20 | 24 |
-| Private Audits | 85 | 179 | 284 |
-| Total | 123 | 267 | 390 |
+| Private Audits | 87 | 187 | 274 |
+| Total | 125 | 274 | 399 |
 
 ## 🏆 Contest Performance
 - [**Mainstream Audit Contest Platforms**](https://audits.sherlock.xyz/watson/jesjupyer): 34 High, 63 Medium  
@@ -121,6 +121,7 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 | Privat | Cyfrin  | RWA | 🟩 Solana (Rust) | 0 | 0 | 4 | - |
 | [Securitize Jump Router](https://www.securitize.io/) | Cyfrin  | Router | 🟩 Solana (Rust) | 0 | 0 | 1 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-06-09-cyfrin-securitize-svm-jump-router-v2.0.pdf) |
 | [Securitize ACL](https://www.securitize.io/) | Cyfrin  | Router | 🟩 Solana (Rust) | 0 | 0 | 1 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-06-26-cyfrin-securitize-svm-bridge-acl-support-v2.0.pdf) |
+| Privat | Cyfrin  | NFT Marketplace | 🟩 Solana (Rust) | 2 | 8 | 10 | - |
 
 ### Plainshift
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
@@ -175,17 +176,6 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 | [Zama](https://www.zama.org/) | Burra Sec | LayerZero | 🟦 Solidity (EVM) + 🟩 Solana (Rust) | 0 | 0 | 0 | - |
 | [Zama](https://www.zama.org/) | Burra Sec | LayerZero | JavaScript | 0 | 3 | 1 | - |
 
-### Failsafe
-| Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
-|----------|---------|---------|---------|------|---------|------|---------|
-| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 1 |1 | - |
-| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 0 |1 | - |
-| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | - | - |- | - |
-| [AZverse](https://www.azverse.xyz/en) | Failsafe | DEX | 🟦 Solidity (EVM) | 1 | 2 |1 | - |
-| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 1 | 2 | Private Report|
-| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 3 | 4 | Private Report|
-| [Virtuals-ACP](https://www.virtuals.io/) | Failsafe | Settlement | 🟦 Solidity (EVM) | 6 | 9 | 15 | Private Report|
-
 ### Fuzzland
 | Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
 |----------|---------|---------|---------|------|---------|------|---------|
@@ -200,6 +190,18 @@ Co-founder, [Taichi Audit](https://taichiaudit.com/), Core Member of [DeFiHackLa
 | [USD1 PreApproval](https://worldlibertyfinancial.com/usd1) | Fuzzland | Canton Token | 🟨 DAML | 0 | 0 | 1 | - |
 | ROBO Finance | Fuzzland |  | 🟦 Solidity (EVM) | 0 | 4 | 2 | - |
 | [vishwanetwork](https://vishwanetwork.xyz/) | Fuzzland | cross-chain | TypeScript | 0 | 3 | 3 | - |
+
+### Failsafe
+| Protocol | Provider | Description | Language | Critical/High | Medium | Low | Report Link|
+|----------|---------|---------|---------|------|---------|------|---------|
+| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 1 |1 | - |
+| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 0 |1 | - |
+| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | - | - |- | - |
+| [AZverse](https://www.azverse.xyz/en) | Failsafe | DEX | 🟦 Solidity (EVM) | 1 | 2 |1 | - |
+| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 1 | 2 | Private Report|
+| [Virtuals-PR](https://www.virtuals.io/) | Failsafe | Launchpad | 🟦 Solidity (EVM) | 0 | 3 | 4 | Private Report|
+| [Virtuals-ACP](https://www.virtuals.io/) | Failsafe | Settlement | 🟦 Solidity (EVM) | 6 | 9 | 15 | Private Report|
+
 
 ### Undisclosed Clients
 
