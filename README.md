@@ -6,7 +6,7 @@ Co-founder of [Taichi Audit](https://taichiaudit.com/) · Core Member of [DeFiHa
 
 My work spans competitive audits, private engagements, open-source contributions, and source-level security research.
 
-- **407 recorded High/Critical and Medium findings** across public competitions and private security reviews
+- **414 recorded High/Critical and Medium findings** across public competitions and private security reviews
 - **9 recorded first-place finishes**, including Coinbase SpendPermission, Arcade.xyz, and OneWorld
 - **10+ additional Solana engagements under NDA**
 - Recurring collaborations with Cyfrin, Pashov Audit Group, Fuzzland, Plainshift, Burra Sec, Failsafe, and yAudit
@@ -51,10 +51,10 @@ My work spans competitive audits, private engagements, open-source contributions
 
 | Category | High / Critical | Medium | H/M Total |
 |---|---:|---:|---:|
-| Public competitions | 34 | 71 | 105 |
+| Public competitions | 34 | 72 | 106 |
 | Secure3 | 4 | 20 | 24 |
-| Private engagements | 91 | 187 | 278 |
-| **Total** | **129** | **278** | **407** |
+| Private engagements | 92 | 192 | 284 |
+| **Total** | **130** | **284** | **414** |
 
 
 ## Selected Competition Results
@@ -84,6 +84,7 @@ My work spans competitive audits, private engagements, open-source contributions
 | Cantina | Bima | **16th** | Lending | 🟦 Solidity / EVM | 1 Medium | [Leaderboard](https://cantina.xyz/code/44d68da7-3cf4-4cec-a3f8-f0917062dac6/overview/leaderboard) |
 | Cantina | mev-commit | **17th** | Network / commitments | 🟦 Solidity / EVM | 1 High, 3 Medium | [Leaderboard](https://cantina.xyz/code/4ee8716d-3e0e-4f59-b90d-aa56bf3b484c/overview/leaderboard) |
 | Cantina | Solayer Bridge | **17th** | Bridge | 🟩 Solana / Rust | 1 High, 3 Medium | [Leaderboard](https://cantina.xyz/code/0f543452-2076-438f-86ae-bbd6b065fffb/overview/leaderboard) |
+| Sherlock | Aero | **17th** | Dex | 🟦 Solidity / EVM | 1 Medium | - |
 | Code4rena | Panoptic | **19th** | Options / perpetuals | 🟦 Solidity / EVM | 1 Medium | [Report](https://code4rena.com/audits/2024-04-panoptic) |
 | Code4rena | Chakra | **20th** | Settlement | 🟦 Solidity / EVM | 2 High, 2 Medium | [Report](https://code4rena.com/audits/2024-08-chakra) |
 | Code4rena | Vultisig | **21st** | Uniswap V3 integration | 🟦 Solidity / EVM | 2 Medium | [Report](https://code4rena.com/reports/2024-06-vultisig) |
@@ -139,8 +140,11 @@ The engagements below include independent work, guest-auditor roles, and reviews
 | [Securitize Jump Router](https://www.securitize.io/) | Cyfrin | Router | 🟩 Solana / Rust | 0 | 0 | 1 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-06-09-cyfrin-securitize-svm-jump-router-v2.0.pdf) |
 | [Securitize Bridge ACL Support](https://www.securitize.io/) | Cyfrin | Bridge / access control | 🟩 Solana / Rust | 0 | 0 | 1 | [Report](https://github.com/Cyfrin/cyfrin-audit-reports/blob/main/reports/2026-06-26-cyfrin-securitize-svm-bridge-acl-support-v2.0.pdf) |
 | Private | Cyfrin | NFT marketplace | 🟩 Solana / Rust | 2 | 8 | 10 | — |
-| Private | Cyfrin | Oracle | 🟩 Solana / Rust | 0 | 0 | 2 | — |
+| Private | Cyfrin | RWA | 🟩 Solana / Rust | 0 | 0 | 2 | — |
 | Private | Cyfrin | RWA | 🟩 Solana / Rust | 0 | 0 | 0 | — |
+| [Securitize SVM Vault Registrar SPL ACL](https://www.securitize.io/) | Cyfrin | Oracle | 🟩 Solana / Rust | 0 | 0 | 2 | — |
+| [Securitize BUIDL-I Deploy Diff](https://www.securitize.io/) | Cyfrin | RWA | 🟩 Solana / Rust | 0 | 0 | 0 | — |
+| Private | Cyfrin | RWA | 🟩 Solana / Rust | 0 | 2 | 5 | — |
 
 
 ### Burra Sec
@@ -151,6 +155,10 @@ The engagements below include independent work, guest-auditor roles, and reviews
 | [Zama](https://www.zama.org/) | Burra Sec | LayerZero integration | 🟦 Solidity / EVM + 🟩 Solana / Rust | 0 | 0 | 0 | — |
 | [Zama](https://www.zama.org/) | Burra Sec | LayerZero integration | JavaScript | 0 | 3 | 1 | — |
 | [Centrifuge Token Bridge](https://centrifuge.io/) | Burra Sec | LayerZero integration | 🟦 Solidity / EVM | 0 | 0 | 1 | — |
+| [Zama-confidential-wrapper](https://zama.org/) | Burra Sec | FHE | 🟦 Solidity / EVM | 0 | 0 | 0 | — |
+| [zama-confidential-primitive](https://zama.org/) | Burra Sec | FHE | 🟦 Solidity / EVM | 0 | 1 | 3 | — |
+| [zama-confidential-defi](https://zama.org/) | Burra Sec | FHE | 🟦 Solidity / EVM | 0 | 0 | 0 | — |
+| [zama](https://zama.org/) | Burra Sec | FHE | 🟦 Solidity / EVM | 0 | 0 | 0 | — |
 
 ### Fuzzland
 
@@ -203,6 +211,10 @@ The engagements below include independent work, guest-auditor roles, and reviews
 | [veRAAC](https://raac.io/) | Pashov Audit Group | Locker | 🟦 Solidity / EVM | 4 | 3 | 6 | Private report |
 | [0xOstium](https://www.ostium.com/) | Pashov Audit Group | RWA | 🟦 Solidity / EVM | 0 | 0 | 3 | Private report |
 | [Pump.fun](https://pump.fun/) | Pashov Audit Group | Launchpad | 🟩 Solana / Rust | 1 | 2 | 13 | Private report |
+| Reserve | Pashov Audit Group | Swap | 🟦 Solidity / EVM | 0 | 0 | 1 | Private report |
+| Bio | Pashov Audit Group | - | 🟦 Solidity / EVM | 0 | 1 | 0 | Private report |
+| Tensora | Pashov Audit Group | Swap | 🟦 Solidity / EVM | 1 | 1 | 4 | Private report |
+
 
 ### yAudit — Guest Auditor
 
