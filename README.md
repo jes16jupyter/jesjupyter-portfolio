@@ -6,11 +6,11 @@ Co-founder of [Taichi Audit](https://taichiaudit.com/) · Core Member of [DeFiHa
 
 My work spans competitive audits, private engagements, open-source contributions, and source-level security research.
 
-- **414 recorded High/Critical and Medium findings** across public competitions and private security reviews
+- **443 recorded High/Critical and Medium findings** across public competitions and private security reviews
 - **9 recorded first-place finishes**, including Coinbase SpendPermission, Arcade.xyz, and OneWorld
 - **10+ additional Solana engagements under NDA**
 - Recurring collaborations with Cyfrin, Pashov Audit Group, Fuzzland, Plainshift, Burra Sec, Failsafe, and yAudit
-- Stack: 🟦 Solidity / EVM · 🟩 Solana / Rust · 🟧 Move · 🟪 Cairo · 🟨 Daml / Canton · Go
+- Stack: 🟦 Solidity / EVM · 🟩 Solana / Rust · 🟧 Move · 🟪 Cairo · 🟨 Daml / Canton · Go · ZK
 
 ## Contact
 
@@ -51,10 +51,10 @@ My work spans competitive audits, private engagements, open-source contributions
 
 | Category | High / Critical | Medium | H/M Total |
 |---|---:|---:|---:|
-| Public competitions | 34 | 72 | 106 |
+| Public competitions | 36 | 76 | 112 |
 | Secure3 | 4 | 20 | 24 |
-| Private engagements | 92 | 192 | 284 |
-| **Total** | **130** | **284** | **414** |
+| Private engagements | 101 | 206 | 307 |
+| **Total** | **141** | **302** | **443** |
 
 
 ## Selected Competition Results
@@ -69,11 +69,12 @@ My work spans competitive audits, private engagements, open-source contributions
 | Cantina | Usual Pegasus | 🥈 **2nd** | Order book / DEX | 🟦 Solidity / EVM | 1 Medium | [Leaderboard](https://cantina.xyz/code/31a752e3-8ece-49b3-a9ee-d7294c659340/overview/leaderboard) |
 | Code4rena | Badger eBTC Zap Router | 🥈 **2nd** | Lending | 🟦 Solidity / EVM | 1 Medium | [Report](https://code4rena.com/audits/2024-06-ebtc-zap-router) |
 | Cantina | Coinbase EIP-7702 Proxy | 🥈 **2nd** | Smart wallet | 🟦 Solidity / EVM | 1 Medium | [Leaderboard](https://cantina.xyz/code/b0a948cd-c861-4807-b36e-d680d82598bf/overview/leaderboard) |
+| Sherlock | Undisclosed Protocol | 🥈 **2nd**  | Vault | 🟩 Solana / Rust | 2 High, 4 Medium, 9 Low | - |
 | Cantina | Royco | 🥉 **3rd** | Order book / DEX | 🟦 Solidity / EVM | 7 High, 6 Medium; most findings; 1 solo | [Leaderboard](https://cantina.xyz/code/fadb5a8f-e39c-4a6b-89f6-a03858bb8602/overview/leaderboard) |
 | Code4rena | THORWallet | **6th** | Smart wallet | 🟦 Solidity / EVM | 1 High, 1 Medium | [Report](https://code4rena.com/audits/2025-02-thorwallet) |
 | CodeHawks | TempleGold | **6th** | Staking | 🟦 Solidity / EVM | 1 High, 1 Low | [Results](https://codehawks.cyfrin.io/c/2024-07-templegold/results?page=1) |
 | CODESPECT | SpecSiege | **6th** | Bonding | 🟦 Solidity / EVM | 3 Medium, 2 Low | — |
-| Sherlock | Polygon Heimdall V2 | **7th** | DLT / validator infrastructure | Go | 3 Medium, 19 Low | [Profile](https://audits.sherlock.xyz/watson/jesjupyer) |
+| Sherlock | Undisclosed Protocol | **7th** | DLT / validator infrastructure | Go | 3 Medium, 19 Low | - |
 | Cantina | Morpho Vaults | **8th** | Lending / vaults | 🟦 Solidity / EVM | 1 Medium | [Leaderboard](https://cantina.xyz/code/523e1540-f8c3-45ae-9c5d-b6d35d3a326c/overview/leaderboard) |
 | Code4rena | TraitForge | **10th** | NFT / GameFi | 🟦 Solidity / EVM | 2 High, 5 Medium | [Report](https://code4rena.com/audits/2024-07-traitforge) |
 | Cantina | Velvet Capital | **11th** | DeFi / AMM | 🟦 Solidity / EVM | 1 High, 3 Medium | [Leaderboard](https://cantina.xyz/code/8cf9c7a0-a7a6-446a-8577-1e2c254eb5a8/overview/leaderboard) |
@@ -123,6 +124,7 @@ The engagements below include independent work, guest-auditor roles, and reviews
 | [LazyOtter](https://lazyotter.finance/) | Taichi Audit | Yield farming | 🟦 Solidity / EVM | 1 | 3 | — | — |
 | [Lambo Win](https://lambo-win.gitbook.io/lambo.win) | Taichi Audit | Launchpad | 🟦 Solidity / EVM | 0 | 3 | — | — |
 | [Isle V2](https://www.isle.finance/) | Taichi Audit | Lending | 🟦 Solidity / EVM | 3 | 7 | 8 | — |
+| Psy | Taichi Audit | ZK, Node | ZK | 9 | 14 | 7 | — |
 
 ### Cyfrin
 
@@ -145,6 +147,9 @@ The engagements below include independent work, guest-auditor roles, and reviews
 | [Securitize SVM Vault Registrar SPL ACL](https://www.securitize.io/) | Cyfrin | Oracle | 🟩 Solana / Rust | 0 | 0 | 2 | — |
 | [Securitize BUIDL-I Deploy Diff](https://www.securitize.io/) | Cyfrin | RWA | 🟩 Solana / Rust | 0 | 0 | 0 | — |
 | Private | Cyfrin | RWA | 🟩 Solana / Rust | 0 | 2 | 5 | — |
+| [Securitize BUIDL-I Deploy Diff](https://www.securitize.io/) | Cyfrin | RWA | 🟩 Solana / Rust | 0 | 0 | 0 | — |
+| OKUMoney | Cyfrin | RWA | 🟩 Solana / Rust | 0 | 0 | 1 | — |
+| Eco-Real | Cyfrin | ERC-20 | 🟦 Solidity / EVM | 0 | 0 | 1 | — |
 
 
 ### Burra Sec
